@@ -1,0 +1,66 @@
+@import url(../../assets/css/common.css);
+
+.time-line {
+  background: var(--main-black);
+  padding-top: 100px;
+}
+
+.line-white {
+  height: 4px;
+  width: 40px;
+  margin: 0 auto;
+  background: white;
+}
+
+.title-box {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.title-main-time {
+  color: var(--main-color);
+  font-size: 28px;
+}
+
+.title-sub-time {
+  color: white;
+  font-size: 40px;
+}
+
+
+.time-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-time {
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 700;
+  padding: 49.5px 51.5px 0 51.5px;
+}
+
+.countdown-days{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+.box-button{
+  padding: 55px 0 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

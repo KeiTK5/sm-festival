@@ -1,0 +1,21 @@
+.btn-full {
+  width: 125px;
+  height: 40px;
+  position: relative;
+  background: linear-gradient(to right, #F85EAD, #7000FF);
+  padding: 1px;
+  margin: 0 25px;
+  text-align: center;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}

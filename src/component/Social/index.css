@@ -1,0 +1,53 @@
+.section-social {
+  padding: 100px 0 20px 0;
+}
+
+.splide__list {
+  text-align: center;
+}
+
+.avatar-slide {
+  position: relative;
+  cursor: pointer;
+  height: auto;
+}
+
+.hidden {
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  transition: .5s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 230px;
+  height: 230px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.splide__slide:hover .hidden {
+  opacity: 1;
+}
+
+.link-instagram {
+  color: white;
+  text-decoration: none;
+}
+
+.bxl-instagram {
+  font-size: 24px;
+}
+
+.name-artist{
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+}
