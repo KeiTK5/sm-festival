@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d2f7d06b.css",
+    "main.js": "./static/js/main.95b55bca.js",
+    "static/js/787.008635c0.chunk.js": "./static/js/787.008635c0.chunk.js",
+    "static/media/banner.png": "./static/media/banner.0f3bae663bb72c3df28a.png",
+    "static/media/pageImg.png": "./static/media/pageImg.32de09193ab1dbf47513.png",
+    "static/media/ningning.jpg": "./static/media/ningning.744f1777c260519c8c5a.jpg",
+    "static/media/giselle.jpg": "./static/media/giselle.bea24352654d45240756.jpg",
+    "static/media/winterA.jpg": "./static/media/winterA.5b30080df1c9090f836f.jpg",
+    "static/media/karina.jpg": "./static/media/karina.37a6e3ddebcf563b54e0.jpg",
+    "static/media/winter.jpg": "./static/media/winter.8af3aeccd6af4bd4407e.jpg",
+    "static/media/avatar2.png": "./static/media/avatar2.6fb751b32428e8df2342.png",
+    "static/media/avatar4.png": "./static/media/avatar4.15df98d083b5ed650947.png",
+    "static/media/avatar.png": "./static/media/avatar.c9bb9e27d425dd81d4c8.png",
+    "static/media/avatar3.png": "./static/media/avatar3.fee2d00e4151f283aea7.png",
+    "static/media/avatar5.png": "./static/media/avatar5.6e21b4a63bc6e92258b4.png",
+    "index.html": "./index.html",
+    "main.d2f7d06b.css.map": "./static/css/main.d2f7d06b.css.map",
+    "main.95b55bca.js.map": "./static/js/main.95b55bca.js.map",
+    "787.008635c0.chunk.js.map": "./static/js/787.008635c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2f7d06b.css",
+    "static/js/main.95b55bca.js"
+  ]
+}
