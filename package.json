@@ -1,5 +1,6 @@
 {
   "name": "music-tours",
+  "homepage": "https://keitk5.github.io/sm-festival/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
