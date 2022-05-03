@@ -1,0 +1,14 @@
+.container-albums{
+  color: white;
+  padding: calc(100px + 62.52px) 0 100px 0;
+}
+
+.title-main{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.albums-year{
+  font-size: 28px;
+  font-weight: 400;
+}

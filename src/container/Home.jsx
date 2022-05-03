@@ -4,7 +4,7 @@ import Header from '../common/Header/index'
 import Footer from '../common/Footer'
 import HomePage from './HomePage/HomePage';
 import ArtistPage from './ArtistPage/ArtistPage';
-
+import AlbumsPage from './AlbumsPage'
 
 function Home(props) {
     return (
@@ -16,6 +16,9 @@ function Home(props) {
                 </Route>
                 <Route path="/artist">
                     <ArtistPage />
+                </Route>
+                <Route path="/albums">
+                    <AlbumsPage />
                 </Route>
             </Switch>
             <Footer />

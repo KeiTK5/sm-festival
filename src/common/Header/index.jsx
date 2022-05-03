@@ -3,8 +3,6 @@ import {
    Logo,
    Union,
    EN,
-   Background,
-   Wave,
 } from '../../assets/image'
 import LazyLoad from 'react-lazyload'
 import { Link } from 'react-router-dom';
@@ -26,13 +24,8 @@ function Header() {
             </div>
             <div className="redirect">
                {data.map((item, index) => (
-                  <Link to={item.path} key={index} className={`item-link ${location.pathname === item.path ? "active" : ""}`}>{item.title}
-                     <div className="before-wave">
-                        <img src={Wave} alt="" />
-                     </div>
-                  </Link>
+                  <Link to={item.path} key={index} className={`item-link ${location.pathname === item.path ? "active" : ""}`}>{item.title}</Link>
                ))}
-
             </div>
             <div className="box-support">
                <img src={Union} alt="support" className='item-support' />

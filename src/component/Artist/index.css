@@ -1,17 +1,26 @@
-.box-artist{
+.container-artist {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.box-artist {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: calc(100px + 62.52px) 0 100px 0;
 }
 
-.artist-item{
+.artist-item {
   width: 280px;
   /* overflow: hidden; */
-  margin: 0 15px;
 }
 
-.artist-item img{
+.artist-item img {
   width: 100%;
   height: auto;
 }

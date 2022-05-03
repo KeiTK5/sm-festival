@@ -42,15 +42,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
 
 }
 
 .item-link.active {
   color: var(--main-color);
   position: relative;
-  top: 50%;
-  transform: translateY(-23%);
+  
+}
+.item-link.active::before{
+  position: absolute;
+  content: url('../../assets/image/wave.png');
+  top: 60%;
 }
 
 

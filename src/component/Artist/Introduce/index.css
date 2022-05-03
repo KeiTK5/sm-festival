@@ -1,0 +1,37 @@
+.introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding-bottom: 83px;
+}
+
+.box-slogan {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 23px;
+  width: 50%;
+}
+
+.slogan {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.sub-slogan {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.box-intro{
+  width: 50%;
+  margin-left: 23px;
+}
+.item-intro{
+  font-size: 16px;
+  font-weight: 400;
+}

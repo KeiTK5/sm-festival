@@ -11,8 +11,8 @@ const data = [
   },
   {
     id: 3,
-    title: "Discography",
-    path: "/discography",
+    title: "Albums",
+    path: "/albums",
   },
   {
     id: 4,
