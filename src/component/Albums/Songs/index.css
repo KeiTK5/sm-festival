@@ -1,0 +1,43 @@
+.container-songs{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.box-songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-song {
+  text-align: center;
+  width: 240px;
+  padding-bottom: 50px;
+}
+
+.image-song {
+  width: inherit;
+  height: 240px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+}
+
+.image-song img {
+  width: 100%;
+  height: auto;
+}
+
+.type-song {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.name-song {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.intro-song{
+  max-height: 100px;
+}

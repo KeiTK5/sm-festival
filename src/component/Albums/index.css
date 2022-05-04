@@ -1,14 +1,88 @@
-.container-albums{
+@import url('../../assets/css/common.css');
+
+.container-albums {
   color: white;
-  padding: calc(100px + 62.52px) 0 100px 0;
+  padding: calc(100px + 62.52px) 0 50px 0;
 }
 
-.title-main{
+.title-main {
   text-align: center;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
 }
-.albums-year{
-  font-size: 28px;
+
+.albums-year {
+  font-size: 18px;
   font-weight: 400;
+}
+
+.box-albums {
+  padding: 50px 0 60px 0;
+}
+
+.nav-albums {
+  padding: 50px 0;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-albums {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.box-options {
+  margin: 0 auto;
+  max-width: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.item-option.show-item {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.item-option {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-song {
+  color: var(--main-color);
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.box-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  margin-right: -8px;
+}
+
+.bx-chevron-up,
+.bx-chevron-down {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bx-chevron-up.active,
+.bx-chevron-down.active {
+  color: var(--main-color);
 }
