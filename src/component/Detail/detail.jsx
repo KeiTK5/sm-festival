@@ -17,7 +17,7 @@ function Detail(props) {
 
                 <div className="left-cd">
                     {
-                        data.map((item,index) => (
+                        data?.map((item,index) => (
                             item.name == cut ? <Item key={index} item={item} />
                                 : null
                         ))
@@ -27,7 +27,7 @@ function Detail(props) {
                 <div className="right-cd">
                     <div className="image-albums-detail">
                         {
-                            data.map((item, index) => (
+                            data?.map((item, index) => (
                                 item.name == cut ? <img key={index} src={item.image} alt="" />
                                     : null
                             ))

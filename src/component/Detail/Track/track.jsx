@@ -13,7 +13,7 @@ function Track(props) {
                             1
                         </div>
                         <div className="name-track">
-                            Savage
+                            BUTTER
                         </div>
                         <div className="time-track">
                             2’54”
