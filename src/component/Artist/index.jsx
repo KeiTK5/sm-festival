@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from './Introduce/intro';
 import data from './data'
 import './index.css'
+import { Avatar, Avatar2, Avatar3, Avatar4, Avatar5 } from '../../assets/image'
 
 function index(props) {
   return (

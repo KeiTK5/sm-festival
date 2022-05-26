@@ -13,11 +13,13 @@
   justify-content: space-between;
   align-items: center;
   padding: calc(100px + 62.52px) 0 100px 0;
+  flex-wrap: wrap;
 }
 
 .artist-item {
   width: 280px;
   /* overflow: hidden; */
+  margin-top: 24px;
 }
 
 .artist-item img {

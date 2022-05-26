@@ -1,7 +1,8 @@
-.container-songs{
+.container-songs {
   max-width: 1080px;
   margin: 0 auto;
 }
+
 .box-songs {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +39,12 @@
   font-weight: 700;
 }
 
-.intro-song{
-  max-height: 100px;
+.name-song a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.intro-song {
+  min-height: 100px;
 }

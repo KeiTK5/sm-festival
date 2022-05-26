@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import { Avatar, Avatar2, Avatar3, Avatar4, Avatar5, WinterA } from '../../assets/image'
+import { Avatar, Avatar2, Avatar3, Avatar4, Avatar5 } from '../../assets/image'
 function Social(props) {
   const options = {
     rewind: true,
