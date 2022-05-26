@@ -8,14 +8,14 @@ function Item(props) {
     <div className="box-item">
       <div className="box-cd">
         <div className="image-cd">
-          <img src={item.image} alt="" />
+          <img src={item?.image} alt="" />
         </div>
         <div className="info-cd">
           <div className="name-cd">
-            {item.name}
+            {item?.name}
           </div>
           <div className="release-cd">
-            {(item.date).toJSON().slice(0,10)}
+            {(item?.date).toJSON().slice(0,10)}
           </div>
           <Button content={'Buy Album'} />
         </div>
